@@ -44,6 +44,7 @@ class hash:
         OPF.config(state='disabled')
         OPT.config(state='disabled')
         CKH.config(state='disabled')
+        CHB.config(state='disabled')
 
         root.title("Hash Checksum | Wait the file is being processed..")
 
@@ -67,6 +68,7 @@ class hash:
         OPF.config(state='normal')
         OPT.config(state='normal')
         CKH.config(state='normal')
+        CHB.config(state='normal')
 
     def verify(self):
         userhash = CHE.get().strip()
